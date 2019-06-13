@@ -1,10 +1,10 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-device-width: 700px) {
    .halfWhenSmall {
       width: 50%;
    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-device-width: 500px) {
    .blockWhenSmaller {
       display: block;
    }
