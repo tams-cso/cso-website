@@ -6,7 +6,7 @@ import Navigation from './navigation'
 class Header extends Component {
    render = () => {
       return (
-         <Flex alignItems='center' bg='black' py={200} px={40}>
+         <Flex alignItems='center' bg='black' px={40} style={{height: '100vh'}}>
             <Box width={2/3}>
                <CircleLogo />
             </Box>
