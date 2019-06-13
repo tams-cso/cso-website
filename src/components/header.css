@@ -1,0 +1,16 @@
+@media screen and (max-width: 700px) {
+   .halfWhenSmall {
+      width: 50%;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .blockWhenSmaller {
+      display: block;
+   }
+
+   .halfWhenSmall {
+      width: 100%;
+      padding-top: 40px;
+   }
+}
