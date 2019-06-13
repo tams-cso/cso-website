@@ -3,3 +3,14 @@
       width: 50%;
    }
 }
+
+@media screen and (max-width: 600px) {
+   .blockWhenSmaller {
+      display: block;
+   }
+
+   .halfWhenSmall {
+      width: 100%;
+      padding-top: 40px;
+   }
+}

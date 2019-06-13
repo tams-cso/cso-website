@@ -3,7 +3,7 @@ import { Text } from 'rebass'
 import './navigation.css'
 
 const Navigation = (props) => (
-   <ul sytle={{margin: 0, listStyle: 'none'}}>
+   <ul style={{margin: 0, listStyle: 'none', padding: 0}}>
       { 
          props.links.map((link) => (
             <li>

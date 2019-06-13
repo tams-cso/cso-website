@@ -7,7 +7,7 @@ import './header.css'
 class Header extends Component {
    render = () => {
       return (
-         <Flex alignItems='center' bg='black' px={40} style={{height: '100vh'}}>
+         <Flex alignItems='center' bg='black' px={40} style={{height: '100vh'}} className='blockWhenSmaller'>
             <Box width={2/3} className='halfWhenSmall'>
                <CircleLogo />
             </Box>
