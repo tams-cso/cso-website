@@ -54,3 +54,10 @@
    transform: rotate3d(1, 1, 1, 0deg);
    overflow: hidden;
 }
+
+@media screen and (max-width: 600px) {
+   .circle-logo {
+      height: 184px;
+      width: 184px;
+   }
+}
