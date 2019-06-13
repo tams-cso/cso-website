@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Box, Flex, Heading, Text } from 'rebass'
 import CircleLogo from './circle-logo'
+import Navigation from './navigation'
 
 class Header extends Component {
    render = () => {
@@ -10,7 +11,25 @@ class Header extends Component {
                <CircleLogo />
             </Box>
             <Box width={1/3}>
-               <Heading color='white'>Navigation will go here</Heading>
+               <Navigation links={[
+                     {
+                        href: '/',
+                        text: 'home'
+                     },
+                     {
+                        href: '#',
+                        text: 'team'
+                     },
+                     {
+                        href: '#',
+                        text: 'competitions'
+                     },
+                     {
+                        href: '#',
+                        text: 'projects'
+                     }
+                  ]}
+               />
             </Box>
          </Flex>
       )
