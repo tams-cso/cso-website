@@ -1,0 +1,56 @@
+@keyframes circleRotate1 {
+   50% {
+      transform: rotate3d(0, 2, 1, 180deg);
+   }
+   100% {
+      transform: rotate3d(0, 2, 1, 360deg);
+   }
+}
+
+@keyframes circleRotate2 {
+   50% {
+      transform: rotate3d(2, 0, 1, 180deg);
+   }
+   100% {
+      transform: rotate3d(2, 0, 1, 360deg);
+   }
+}
+
+@keyframes circleColor {
+   0% {
+      stroke: magenta;
+   }
+   33% {
+      stroke: cyan;
+   }
+   66% {
+      stroke: yellow;
+   }
+   100% {
+      stroke: magenta;
+   }
+}
+
+.circle1 {
+   transform-origin: 50% 50%;
+   animation-name: circleRotate1, circleColor;
+   animation-duration: 4s, 8s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+
+.circle2 {
+   transform-origin: 50% 50%;
+   animation-name: circleRotate2, circleColor;
+   animation-duration: 4s, 7s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-delay: 0s, -1s;
+}
+
+.circle-logo {
+   height: 384px;
+   width: 384px;
+   transform: rotate3d(1, 1, 1, 0deg);
+   overflow: hidden;
+}
