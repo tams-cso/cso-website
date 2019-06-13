@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, span, div, button, input, textarea, a, label, form {
+  font-family: 'Source Code Pro', monospace;
+}
+
 .App {
   text-align: center;
 }
