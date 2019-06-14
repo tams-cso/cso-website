@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { Component } from 'react'
 import './App.css'
-import Header from './components/header.js'
+import Header from './components/header'
 
-function App() {
-  return (
+class App extends Component {
+  render = () =>  (
     <div className='App'>
       <Header />
+      <br /><br /><br /><br /><br /><br />
     </div>
   )
 }

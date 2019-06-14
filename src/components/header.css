@@ -14,3 +14,11 @@
       padding-top: 40px !important;
    }
 }
+
+.animateUp {
+   top: -800px !important;
+}
+
+.animateRight {
+   right: -800px !important;
+}

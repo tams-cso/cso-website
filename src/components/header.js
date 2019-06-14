@@ -1,38 +1,62 @@
 import React, { Component } from 'react'
-import { Box, Flex, Heading, Text } from 'rebass'
+import { Box, Flex } from 'rebass'
 import CircleLogo from './circle-logo'
 import Navigation from './navigation'
+import TopNavigation from './top-navigation'
 import './header.css'
 
 class Header extends Component {
+   constructor (props) {
+      super(props)
+      this.state = {
+         navigationOnTop: false,
+         links: [
+            {
+               href: '/',
+               text: 'home'
+            },
+            {
+               href: '#',
+               text: 'team'
+            },
+            {
+               href: '#',
+               text: 'competitions'
+            },
+            {
+               href: '#',
+               text: 'projects'
+            }
+         ]
+      }
+  }
+
+   componentDidMount = () => {
+      window.addEventListener('scroll', this.handleScroll)
+   }
+
+   handleScroll = () => {
+      const scrollY = window.scrollY
+      if (scrollY > 20) {
+         this.setState({ navigationOnTop: true })
+      } else {
+         this.setState({ navigationOnTop: false })
+      }
+   }
+
    render = () => {
       return (
-         <Flex alignItems='center' bg='black' px={40} style={{height: '100vh'}} className='blockWhenSmaller'>
-            <Box width={2/3} className='halfWhenSmall'>
-               <CircleLogo />
-            </Box>
-            <Box width={1/3} className='halfWhenSmall'>
-               <Navigation links={[
-                     {
-                        href: '/',
-                        text: 'home'
-                     },
-                     {
-                        href: '#',
-                        text: 'team'
-                     },
-                     {
-                        href: '#',
-                        text: 'competitions'
-                     },
-                     {
-                        href: '#',
-                        text: 'projects'
-                     }
-                  ]}
-               />
-            </Box>
-         </Flex>
+         <div>
+            <TopNavigation links={this.state.links} navigationOnTop={this.state.navigationOnTop} />
+            <Flex alignItems='center' bg='black' px={40} style={{height: '100vh'}} className='blockWhenSmaller'>
+               <Box width={2/3} className='halfWhenSmall'>
+                  <CircleLogo />
+               </Box>
+               <Box width={1/3} className='halfWhenSmall'>
+                  <Navigation links={this.state.links} navigationOnTop={this.state.navigationOnTop} />
+               </Box>
+            </Flex>
+         </div>
       )
    }
 }
