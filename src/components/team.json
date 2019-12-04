@@ -1,0 +1,22 @@
+[
+   {
+      "name": "Ben Taylor",
+      "role": "Competitions Coordinator & HackTAMS Organizer",
+      "image": "/images/ben.png"
+   },
+   {
+      "name": "Ben Sun",
+      "role": "President",
+      "image": "/images/ben2.png"
+   },
+   {
+      "name": "Eric Zhang",
+      "role": "Treasurer",
+      "image": "/images/eric.png"
+   },
+   {
+      "name": "Connie Wang",
+      "role": "Volunteer Coordinator",
+      "image": "/images/connie.png"
+   }
+]

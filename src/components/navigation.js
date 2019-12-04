@@ -21,6 +21,7 @@ const Navigation = (props) => (
                   style={{
                      textDecoration: 'none'
                   }}
+                  className='nav'
                >
                   <Text 
                      color='magenta'

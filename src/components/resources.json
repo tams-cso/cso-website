@@ -1,0 +1,55 @@
+{
+   "sections": [
+      {
+         "title": "Online Tutorials",
+         "links": [
+            {
+               "title": "Derek Banas C++",
+               "url": "https://www.youtube.com/watch?v=DamuE8TM3xo&list=PLGLfVvz_LVvQ9S8YSV0iDsuEU8v11yP9M&ab_channel=DerekBanas"
+            },
+            {
+               "title": "The C Programming Language",
+               "url": "http://93.174.95.29/main/210000/35ac91713e4b5428f6311fca2ca9304e/Brian%20Kernighan%20and%20Dennis%20Ritchie%20-%20The%20C%20Programming%20Language-Prentice%20Hall%20PTR%20%281988%29.pdf"
+            },
+            {
+               "title": "Foundations of Computer Science",
+               "url": "http://infolab.stanford.edu/~ullman/focs.html"
+            }
+         ]
+      },
+      {
+         "title": "Online Competition & Interview Practice",
+         "links": [
+            {
+               "title": "LeetCode",
+               "url": "https://leetcode.com/"
+            },
+            {
+               "title": "CodeSignal",
+               "url": "https://app.codesignal.com/"
+            },
+            {
+               "title": "HackerRank",
+               "url": "https://www.hackerrank.com/"
+            },
+            {
+               "title": "USA Computing Olympiad",
+               "url": "http://usaco.org/"
+            }
+         ]
+      },
+      {
+         "title": "Fun Online Events",
+         "links": [
+            {
+               "title": "Hacktober Fest",
+               "url": "https://hacktoberfest.digitalocean.com/"
+            },
+            {
+               "title": "Advent of Code",
+               "url": "https://adventofcode.com/"
+            }
+         ]
+      }
+   ]
+}

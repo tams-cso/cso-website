@@ -17,19 +17,19 @@ class Header extends Component {
             },
             {
                href: '#',
-               text: 'team'
-            },
-            {
-               href: '#',
                text: 'competitions'
             },
             {
+               href: '#resources',
+               text: 'resources'
+            },
+            {
                href: '#',
-               text: 'projects'
+               text: 'team'
             }
          ]
       }
-  }
+   }
 
    componentDidMount = () => {
       window.addEventListener('scroll', this.handleScroll)
