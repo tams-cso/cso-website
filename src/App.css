@@ -75,6 +75,10 @@ h2 {
                2px 2px 0 #fff, 4px 4px 0 #0ff;
 }
 
+.asterisks {
+  right: calc(120vw - 600px);
+}
+
 .asterisks p {
   animation: shiver 2s infinite ease-in-out;
 }
@@ -85,4 +89,16 @@ h2 {
 
 .asterisks p:last-of-type {
   animation-delay: -.4s;
+}
+
+.wrap {
+  width: 95%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .asterisks {
+    right: 800px;
+  }
 }

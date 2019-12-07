@@ -3,7 +3,6 @@ import React from 'react';
 const Asterisks = () => (
    <div style={{
       position: 'absolute',
-      right: 900,
       transform: 'scale(2)'
    }} className='asterisks'>
       <p style={{
