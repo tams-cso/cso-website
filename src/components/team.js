@@ -6,6 +6,7 @@ import './team.css';
 const Team = () => (
    <div>
       <section>
+         <a name='team' style={{ position: 'relative', top: -80 }}></a>
          <h2>Team</h2>
          <div className='members'>
             {
