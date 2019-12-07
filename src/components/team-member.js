@@ -12,4 +12,4 @@ const TeamMember = (props) => (
    </div>
 )
 
-export default TeamMember;
+export default TeamMember
