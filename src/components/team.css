@@ -1,0 +1,34 @@
+.teammember .img {
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 999px;
+   box-shadow: -2px -2px 0 magenta, 2px 2px 0 yellow;
+   transform: scale(1);
+   transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.teammember:hover .img {
+   box-shadow: 2px 2px 0 magenta, -2px -2px 0 yellow,
+               6px 6px 0 white, 7px 7px 0 black,
+               6px -6px 0 white, 7px -7px 0 black,
+               -7px 0 0 white, -9px 0 0 cyan;
+   transform: scale(1.1);
+}
+
+.teammember {
+   margin: 0 40px 80px 40px;
+}
+
+.teammember p {
+   margin-top: -20px;
+}
+
+.members {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}

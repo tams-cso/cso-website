@@ -16,16 +16,16 @@ class Header extends Component {
                text: 'home'
             },
             {
-               href: '#',
-               text: 'competitions'
-            },
-            {
                href: '#resources',
                text: 'resources'
             },
             {
-               href: '#',
+               href: '#team',
                text: 'team'
+            },
+            {
+               href: 'https://www.facebook.com/groups/CSO2020/',
+               text: 'facebook'
             }
          ]
       }

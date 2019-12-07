@@ -5,7 +5,7 @@ import Asterisks from './asterisks';
 const Resources = (props) => (
    <div>
       <Asterisks />
-      <section>
+      <section style={{ minHeight: 600, marginBottom: 100 }}>
          <div style={{ textAlign: 'right', right: '100px', maxWidth: '380px', position: 'absolute' }}>
             <a name='resources' style={{ position: 'relative', top: -80 }}></a>
             <h2>Resources</h2>

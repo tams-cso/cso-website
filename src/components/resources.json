@@ -35,6 +35,10 @@
             {
                "title": "USA Computing Olympiad",
                "url": "http://usaco.org/"
+            },
+            {
+               "title": "CodeWars",
+               "url": "https://www.codewars.com/"
             }
          ]
       },
@@ -48,6 +52,10 @@
             {
                "title": "Advent of Code",
                "url": "https://adventofcode.com/"
+            },
+            {
+               "title": "Master the Mainframe",
+               "url": "http://masterthemainframe.com/"
             }
          ]
       }
