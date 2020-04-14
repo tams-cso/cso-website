@@ -1,0 +1,3 @@
+[submodule "public/hacktams"]
+	path = public/hacktams
+	url = https://github.com/zachtango/hacktams
