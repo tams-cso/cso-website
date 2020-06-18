@@ -26,7 +26,11 @@ class Header extends Component {
             {
                href: 'https://www.facebook.com/groups/CSO2020/',
                text: 'facebook'
-            }
+            },
+            {
+               href: '#faq',
+               text: 'faq'
+            },
          ]
       }
    }
