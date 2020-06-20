@@ -8,7 +8,7 @@ const Resources = (props) => (
       <section style={{ minHeight: 600, marginBottom: 100 }}>
          <div className='wrap' style={{ position: 'relative' }}>
             <div style={{ textAlign: 'right', right: 0, maxWidth: '380px', position: 'absolute' }}>
-               <a name='resources' href='#' style={{ position: 'relative', top: -80 }}></a>
+               <a name='resources' href='# ' style={{ position: 'relative', top: -80 }}> </a>
                <h2>Resources</h2>
                {
                   resources.sections.map(section => (
