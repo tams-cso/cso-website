@@ -17,7 +17,7 @@ class FAQ extends React.Component {
     return (
       <div>
         <section style={{ minHeight: 600, marginBottom: 100 }}>
-          <a name='faq' style={{ position: 'relative', top: -80 }}></a>
+          <a name='faq' href="# " style={{ position: 'relative', top: -80 }}> </a>
           <h2>FAQ</h2>
           <div id='container' className='wrap' style={{ position: 'relative' }}>
           </div>
